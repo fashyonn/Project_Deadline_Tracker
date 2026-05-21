@@ -72,7 +72,6 @@ void tambahDeadline() {
     baru->next = NULL;
     baru->prev = NULL;
     
-    // jika data pertama
     if (head == NULL) {
 		head = tail = baru;
 	} else {
