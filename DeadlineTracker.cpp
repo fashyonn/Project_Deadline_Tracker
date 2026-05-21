@@ -427,7 +427,7 @@ void menu() {
     int pilih;
 
     do {
-        system("CLS")
+        system("CLS");
 
         cout << "\n==============================\n";
         cout << "      DEADLINE TRACKER\n";
@@ -495,7 +495,7 @@ void menu() {
             default:
                 cout << "\nMenu tidak tersedia.\n";
         }
-        
+
         system("pause");
     } while (pilih != 0);
 }
